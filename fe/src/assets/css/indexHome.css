@@ -1,0 +1,131 @@
+@import url("http://fonts.googleapis.com/scc2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 1%;
+  background: rgb(91, 135, 236);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.imageLogo {
+  width: 80px;
+  height: 80px;
+}
+
+.navbar .buttonHeader {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  margin: 10px;
+  background-color: transparent;
+  border: none;
+}
+.navbar .loginButton {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111;
+  background-color: #3bd4c7;
+  border-radius: 5px;
+  padding: 2px 5px;
+  margin: 0 20px;
+  border: 1px solid rgb(215 219 226);
+  box-shadow: 0 0 44px rgb(215 219 226);
+}
+
+.searchForm {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.searchForm .searchInput {
+  padding-right: 30px;
+}
+.searchForm .iconSearch {
+  position: absolute;
+  right: 10px;
+  color: #333;
+  pointer-events: none;
+}
+
+/**/
+.footer {
+  background-color: #f0f0f0;
+  padding: 20px 0;
+  color: #555;
+  font-size: 14px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-left {
+  margin-left: 20px;
+}
+.footer-left,
+.footer-right {
+  flex-basis: 50%;
+}
+
+.footer-left h3,
+.footer-right h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer-left p {
+  margin-bottom: 10px;
+}
+
+.footer-right ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-right ul li {
+  margin-bottom: 5px;
+}
+
+.footer-right ul li a {
+  color: #555;
+  text-decoration: none;
+}
+
+.footer-right ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  background-color: #ddd;
+  padding: 10px 0;
+  text-align: center;
+}
+.footer-route {
+  border: none;
+}
+.footer-route:hover {
+  color: rgb(91, 135, 236);
+}
+
+.icon-DG {
+  font-size: 35px;
+  margin-left: 10px;
+}

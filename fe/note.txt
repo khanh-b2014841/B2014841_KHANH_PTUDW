@@ -1,0 +1,20 @@
+** Người dùng **
+- Trang chủ
+- Trang chi tiết
+- Trang mượn sách
+- Trang đăng nhập / đăng ký
+- Trang người dùng
+    + Xem sách chờ duyệt
+    + Xem sách đã mượn
+    + Xem sách đã trả
+- Trang tìm kiếm
+
+** Admin **
+- Trang chủ
+- Quản lý sách
+- Danh sách người dùng
+- Quản lý nhân viên
+- Quản lý mượn sách
+- Quản lý nhà xuất bản
+- Quản lý loại
+- Quản lý trả sách

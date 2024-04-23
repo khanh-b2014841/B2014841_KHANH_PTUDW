@@ -1,0 +1,10 @@
+.container h2 {
+  text-align: center;
+  color: blue;
+}
+.button-update {
+  margin: 10px;
+}
+.button-add {
+  margin: 10px;
+}

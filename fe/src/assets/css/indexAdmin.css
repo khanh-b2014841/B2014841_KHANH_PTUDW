@@ -1,0 +1,78 @@
+@import url("http://fonts.googleapis.com/scc2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+i {
+  margin-right: 5px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 1%;
+  background: rgb(91, 135, 236);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imageLogo {
+  width: 80px;
+  height: 80px;
+}
+
+.navbar .buttonHeader {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  margin: 10px;
+  background-color: transparent;
+  border: none;
+}
+.navbar .loginButton {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111;
+  background-color: #3bd4c7;
+  border-radius: 5px;
+  padding: 2px 5px;
+  margin: 0 20px;
+  border: 1px solid rgb(215 219 226);
+  box-shadow: 0 0 44px rgb(215 219 226);
+}
+
+.searchForm {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.searchForm .searchInput {
+  padding-right: 30px;
+}
+.searchForm .iconSearch {
+  position: absolute;
+  right: 10px;
+  color: #333;
+  pointer-events: none;
+}
+.container {
+  margin-top: 90px;
+}
+.list-group-item button {
+  border: none;
+  width: 100%;
+  font-weight: 500;
+}
+h1 {
+  font-size: 30px;
+  margin-top: 10px;
+  text-align: center;
+}

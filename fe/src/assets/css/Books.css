@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  margin-top: 95px;
+}
+
+.search {
+  flex: 1;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.search h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.group-search {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+.group-search button:hover {
+  color: #0e0f0e;
+  background-color: #4cbd73;
+}
+
+.search input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.search input {
+  border-radius: 26px;
+}
+
+.search button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 26px;
+}
+
+.products {
+  flex: 2;
+  padding: 20px;
+}
+
+.product {
+  display: flex;
+  margin-bottom: 10px;
+}
+.products h2 {
+  text-align: center;
+}
+.product img {
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+}
+.product .info {
+  flex: 1;
+}
+.info h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.info .tgn-book {
+  font-weight: 500;
+  margin-bottom: 22px;
+}
+.price-book {
+  color: red;
+  font-size: 20px;
+}

@@ -1,0 +1,14 @@
+.button-admin button {
+  margin: 5px;
+}
+.color-th th {
+  color: blue;
+}
+.add-button {
+  margin: 10px 0;
+}
+h1 {
+  text-align: center;
+  font-size: 35px;
+  margin: 10px 0;
+}
