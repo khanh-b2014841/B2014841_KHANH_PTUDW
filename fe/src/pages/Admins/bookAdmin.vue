@@ -29,7 +29,9 @@ export default {
 </script>
 <template>
   <div class="col-md-9">
-    <button type="button" class="btn btn-success add-button">thêm</button>
+    <router-link to="/addbook">
+      <button type="button" class="btn btn-success add-button">thêm</button>
+    </router-link>
     <table class="table">
       <thead>
         <tr class="color-th">
@@ -52,7 +54,9 @@ export default {
           <td>{{ item.NAMXUATBAN }}</td>
           <td>{{ item.TACGIA }}</td>
           <td class="button-admin">
-            <button type="button" class="btn btn-warning">sửa</button>
+            <router-link to="/updatebook">
+              <button type="button" class="btn btn-warning">sửa</button>
+            </router-link>
             <button type="button" class="btn btn-danger">xóa</button>
           </td>
         </tr>
